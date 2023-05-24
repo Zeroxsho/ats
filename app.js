@@ -42,7 +42,7 @@ var int = setInterval(() => {
             setTimeout(function () {
                 s.destroy();
                 return delete s;
-            }, 5000000);
+            }, 5000);
         })
     }
 });
